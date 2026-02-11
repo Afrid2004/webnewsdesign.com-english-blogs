@@ -1,0 +1,74 @@
+body{
+  background-image: url(../images/background-for-body.jpg);
+}
+a{
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: all .3s ease-in-out;
+}
+a:hover{
+  color: #8a171a !important;
+}
+.nav-item.active{
+    color: #8a171a !important;
+}
+.btn-custom{
+  border: 1px solid #d5d5d5 !important;
+  background: transparent !important;
+  color: #8a171a !important;
+  transition: all .2s ease-in-out;
+}
+.btn-custom:hover{
+  background-color: #8a171a !important;
+  color:white !important;
+}
+.header{
+  top: 0;
+  z-index: 100 !important;
+}
+.navbar-toggler{
+  outline: none !important;
+}
+.rounded-1{
+  border-radius: 5px;
+}
+.form-control:focus{
+  box-shadow: 0 0 0 .2rem #8a171b3f;
+  border: 1px solid #8a171a;
+}
+
+.navbar-toggler-icon {
+    display: flex;
+    width: 1em;
+    height: 1em;
+}
+.navbar-toggler{
+  padding: .50rem;
+}
+.navbar-brand{
+    width: 350px;
+}
+.post-list{
+  max-height: 371px;
+  overflow: auto;
+  border-radius: 0px 0px 5px 5px;
+}
+.list-group-item{
+  border-radius: 0px !important;
+}
+.head{
+  border-radius: 5px 5px 0px 0px;
+  background-color: #8a171a !important;
+  color: white;
+}
+.head a:hover{
+  color: white !important;
+}
+@media (max-width: 768px){
+  .navbar-brand {
+    width: 225px !important;
+  }
+  .w-sm-100{
+    width: 100% !important;
+  }
+}
