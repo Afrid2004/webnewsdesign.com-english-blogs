@@ -64,6 +64,27 @@ a:hover{
 .head a:hover{
   color: white !important;
 }
+.sticky-post{
+  position: sticky;
+  top: 5rem !important;
+  align-self: flex-start;
+}
+.object-fit-cover{
+  object-fit: cover !important;
+}
+.category-image{
+  aspect-ratio: 4/3;
+}
+.title{
+  width: fit-content !important;
+}
+
+.footer{
+  background-color: #343a40;
+}
+
+
+
 @media (max-width: 768px){
   .navbar-brand {
     width: 225px !important;
